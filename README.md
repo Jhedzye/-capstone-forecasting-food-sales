@@ -1,0 +1,55 @@
+#  Capstone Project: Forecasting Food Vendor Sales at Amusement Parks
+
+**Author:** Jedda McKay 
+**Role:** Machine Learning Engineering Bootcamp  
+**Capstone Step 4: Research, Reproduction & Analysis**  
+**Date:** May 2025
+
+---
+
+##  Project Overview
+
+This project explores the use of machine learning and time series forecasting to predict food vendor sales in amusement parks. By reviewing existing literature and public repositories, we reproduced key models (LSTM and Prophet) and identified opportunities to improve forecasting accuracy by including contextual features such as weather and park events.
+
+---
+
+##  Research Summary
+
+| Paper Title | Key Focus | Takeaway |
+|-------------|-----------|----------|
+| [A Stacking Ensemble Model for Food Demand Forecasting](https://www.sciencedirect.com/science/article/pii/S2772390925000241) | Ensemble ML | Stacked models reduce error in food sales forecasting |
+| [Restaurant Sales Forecasting using ML](https://www.mdpi.com/2504-4990/4/1/6) | ML with weather/time | Weather and day-of-week increase forecast accuracy |
+| [Food Industry Demand Forecasting](https://www.researchgate.net/publication/334104604_Demand_Forecasting_A_Case_Study_in_the_Food_Industry) | Time Series | Emphasizes trend and seasonality in food demand |
+
+---
+
+## Reproduced Models
+
+### 1. LSTM (Reproduced from GitHub)
+- File: `/notebooks/lstm_reproduction.ipynb`
+- Source: [Erdos1729/food-demand-forecasting](https://github.com/Erdos1729/food-demand-forecasting)
+- Accuracy: ~85%, RMSE: 0.321
+
+### 2. Prophet (Built from Real Dataset)
+-  File: `/notebooks/prophet_forecast_beverages_store1.ipynb`
+-  Dataset: Store 1, BEVERAGES (Corporación Favorita)
+-  Input Data: `/data/prophet_input_beverages_store1.csv`
+-  Forecast Horizon: 90 days
+
+#### Prophet Insights:
+- Captured weekly seasonality
+- Showed slight upward trend
+- Strong interpretability and fast training
+
+---
+
+## Insights & Next Steps
+
+### Key Learnings:
+- Public ML models provide a solid base, but context (e.g., weather, events) is essential for precise predictions
+- Ensemble and Prophet models are good starting points for prototyping
+
+### Improvements Planned for Final Capstone:
+- Add **weather API** and **event calendar** features
+- Group forecasts by **vendor type** (e.g., snacks, drinks)
+- Compare LSTM, Prophet, and XGBoost for best performance
