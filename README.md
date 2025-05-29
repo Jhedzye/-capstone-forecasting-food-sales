@@ -53,3 +53,31 @@ This project explores the use of machine learning and time series forecasting to
 - Add **weather API** and **event calendar** features
 - Group forecasts by **vendor type** (e.g., snacks, drinks)
 - Compare LSTM, Prophet, and XGBoost for best performance
+
+##  Repository Structure
+
+     capstone-forecasting-food-sales/
+├── README.md
+├── research/
+│ ├── paper1_summary.md
+│ └── paper2_summary.md
+├── notebooks/
+│ ├── lstm_reproduction.ipynb
+│ └── prophet_forecast_beverages_store1.ipynb
+├── data/
+│ └── prophet_input_beverages_store1.csv
+├── analysis/
+│ └── results_summary.md
+└── presentation/
+└── Step_4_Slides.pdf
+---
+
+##  Supporting Materials
+
+- Slide Deck: [Step 4 Capstone Slides - Google Slides](#)
+- Dataset: [Kaggle - Corporación Favorita](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
+
+---
+
+
+
