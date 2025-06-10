@@ -54,7 +54,7 @@ This project explores the use of machine learning and time series forecasting to
 - Group forecasts by **vendor type** (e.g., snacks, drinks)
 - Compare LSTM, Prophet, and XGBoost for best performance
 
-  ### 📈 Prophet Model Evaluation – Student Commentary
+  ### Prophet Model Evaluation
 
 After generating the 90-day forecast for the **BEVERAGES** category from Store 1, I evaluated Prophet’s performance using three common error metrics:
 
