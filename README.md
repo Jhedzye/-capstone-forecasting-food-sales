@@ -54,6 +54,34 @@ This project explores the use of machine learning and time series forecasting to
 - Group forecasts by **vendor type** (e.g., snacks, drinks)
 - Compare LSTM, Prophet, and XGBoost for best performance
 
+  ### 📈 Prophet Model Evaluation – Student Commentary
+
+After generating the 90-day forecast for the **BEVERAGES** category from Store 1, I evaluated Prophet’s performance using three common error metrics:
+
+- **RMSE** (Root Mean Squared Error)
+- **MAE** (Mean Absolute Error)
+- **MAPE** (Mean Absolute Percentage Error — filtered for zero values)
+
+> ⚠️ I filtered out zero-value rows to prevent division-by-zero errors in MAPE.
+
+#### 🔢 Metrics
+
+| Metric | Value     |
+|--------|-----------|
+| RMSE   | 408.87    |
+| MAE    | 304.65    |
+| MAPE   | 24.95     |
+
+#### Interpretation
+
+Prophet worked well to capture seasonality and trends, but had higher error than the LSTM model, which adapted better to spikes in demand. Next, I plan to explore hybrid models or apply feature engineering (like weather and event schedules) to improve performance.
+
+---
+
+📝 See the full notebook here:  
+[`prophet_forecast_beverages_store1_updated_student_marked.ipynb`](notebooks/prophet_forecast_beverages_store1_updated_student_marked.ipynb)
+
+
 ##  Repository Structure
 
      capstone-forecasting-food-sales/
