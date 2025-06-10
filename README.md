@@ -62,7 +62,7 @@ After generating the 90-day forecast for the **BEVERAGES** category from Store 1
 - **MAE** (Mean Absolute Error)
 - **MAPE** (Mean Absolute Percentage Error — filtered for zero values)
 
-> ⚠️ I filtered out zero-value rows to prevent division-by-zero errors in MAPE.
+> ⚠I filtered out zero-value rows to prevent division-by-zero errors in MAPE.
 
 #### 🔢 Metrics
 
