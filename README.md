@@ -81,7 +81,7 @@ Prophet worked well to capture seasonality and trends, but had higher error than
 📝 See the full notebook here:  
 ## Notebooks
 
-- [ Prophet Forecast](notebooks/prophet_forecast_beverages_store1_updated_student_marked.ipynb)
+- [ Prophet Forecast](notebooks/prophet_forecast_beverages_store1.ipynb)
 
 
 
