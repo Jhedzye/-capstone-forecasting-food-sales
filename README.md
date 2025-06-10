@@ -79,7 +79,10 @@ Prophet worked well to capture seasonality and trends, but had higher error than
 ---
 
 📝 See the full notebook here:  
-[`prophet_forecast_beverages_store1_updated_student_marked.ipynb`](capstone-forecasting-food-sales/notebooks/prophet_forecast_beverages_store1_updated_student_marked.ipynb)
+## Notebooks
+
+- [ Prophet Forecast](notebooks/prophet_forecast_beverages_store1_updated_student_marked.ipynb)
+
 
 
 ##  Repository Structure
