@@ -88,20 +88,12 @@ Prophet worked well to capture seasonality and trends, but had higher error than
 ##  Repository Structure
 
      capstone-forecasting-food-sales/
-├── README.md
-├── research/
-│ ├── paper1_summary.md
-│ └── paper2_summary.md
-├── notebooks/
-│ ├── lstm_reproduction.ipynb
-│ └── prophet_forecast_beverages_store1.ipynb
-├── data/
-│ └── prophet_input_beverages_store1.csv
-├── analysis/
-│ └── results_summary.md
-└── presentation/
-└── Step_4_Slides.pdf
----
+- `notebooks/` – Jupyter notebooks for each model  
+- `data/` – Input CSVs for Prophet  
+- `research/` – Paper summaries  
+- `analysis/` – Metric comparison and conclusions  
+- `presentation/` – Mentor-ready slides (PDF)
+
 
 ##  Supporting Materials
 
