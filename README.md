@@ -78,26 +78,36 @@ Prophet worked well to capture seasonality and trends, but had higher error than
 
 ---
 
-📝 See the full notebook here:  
-## Notebooks
 
-- [ Prophet Forecast](notebooks/prophet_forecast_beverages_store1.ipynb)
+- ## Notebooks
+
+- [Prophet Forecast Notebook](notebooks/prophet_forecast_beverages_store1.ipynb)
+
 
 
 
 ##  Repository Structure
 
-     capstone-forecasting-food-sales/
-- `notebooks/` – Jupyter notebooks for each model  
-- `data/` – Input CSVs for Prophet  
-- `research/` – Paper summaries  
-- `analysis/` – Metric comparison and conclusions  
-- `presentation/` – Mentor-ready slides (PDF)
+capstone-forecasting-food-sales/
+│
+├── README.md  
 
+├── notebooks/
+│   └── prophet_forecast_beverages_store1.ipynb 
+
+├── research/
+│   └── Research Review, Reproduction & Analysis.docx  
+
+├── data/
+│   └── prophet_input_beverages_store1.csv  
+
+├── analysis/
+│   └── results.summary.md
+
+├── presentation/
+   └── Google Slides 
 
 ##  Supporting Materials
-
-- Slide Deck: [Step 4 Capstone Slides - Google Slides](#)
 - Dataset: [Kaggle - Corporación Favorita](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
 
 ---
