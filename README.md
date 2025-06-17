@@ -105,7 +105,7 @@ capstone-forecasting-food-sales/
 │   └── results.summary.md
 
 ├── presentation/
-   └── Google Slides 
+   └── Forecasting Food Vendor Sales at Amusement Parks.pdf
 
 ##  Supporting Materials
 - Dataset: [Kaggle - Corporación Favorita](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
