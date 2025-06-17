@@ -64,7 +64,7 @@ After generating the 90-day forecast for the **BEVERAGES** category from Store 1
 
 > ⚠I filtered out zero-value rows to prevent division-by-zero errors in MAPE.
 
-#### 🔢 Metrics
+#### Metrics
 
 | Metric | Value     |
 |--------|-----------|
