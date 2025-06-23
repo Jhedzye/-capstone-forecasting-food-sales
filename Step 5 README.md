@@ -1,6 +1,6 @@
 # Step 5: Data Cleaning, Wrangling, and Exploratory Analysis
 
-This repository documents the data preparation work conducted in Step 5 of the Machine Learning Engineering Capstone project at UMass Global. The objective of this step is to ensure that the dataset is clean, consistent, and structured appropriately for forecasting model development in subsequent phases of the project.
+This repository documents the data preparation work conducted in Step 5 of the Machine Learning Engineering Capstone project . The objective of this step is to ensure that the dataset is clean, consistent, and structured appropriately for forecasting model development in subsequent phases of the project.
 
 ## Project Context
 
