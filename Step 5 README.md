@@ -53,7 +53,7 @@ The following deliverables have been completed:
 
 ## Author
 
-**Jett**  
+**Jedda McKay**  
 Machine Learning Engineering Candidate  
 UMass Global
 
