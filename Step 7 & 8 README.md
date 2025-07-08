@@ -62,5 +62,3 @@ The final model is capable of training on web-scale data while maintaining relia
 - A balance was maintained between model complexity and training efficiency.
 - The project simulates a real-world ML engineering workflow with scalability and resource constraints in mind.
 
-## Repository Structure
-
