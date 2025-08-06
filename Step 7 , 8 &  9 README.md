@@ -62,3 +62,15 @@ The final model is capable of training on web-scale data while maintaining relia
 - A balance was maintained between model complexity and training efficiency.
 - The project simulates a real-world ML engineering workflow with scalability and resource constraints in mind.
 
+## Step 9 – Deployment Plan
+
+**Deployment Method Chosen**: Amazon SageMaker Hosted Endpoint
+
+This plan outlines my strategy to deploy the XGBoost model as a real-time API using AWS. The full plan includes post-deployment monitoring, logging, retraining, and pipeline integration.
+
+[View Deployment Plan (Google Doc)](https://docs.google.com/document/d/1ldMIJIzXPEKAASrPYOsuXVsfufHko9vjfnsS6OibdN0/edit?usp=sharing)
+
+[View Deployment Slides (Google Slides)](https://docs.google.com/presentation/d/19BAaodNL3aAQ-1IBgf6QMBHx_AOerFgh3NVI01ksL9o/edit?usp=sharing)
+
+
+
