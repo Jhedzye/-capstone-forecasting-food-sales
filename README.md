@@ -103,7 +103,7 @@ export ARTIFACT_BUCKET=food-forecast-artifacts-jedda-123
 export ROLE_NAME=SMExecutiojnRoleFoodForecast
 
 
-##2. Convert and Export Model
+## 2. Convert and Export Model
 Convert legacy .h5 to .keras, then export a TensorFlow SavedModel with the proper input signature.
 
 python - <<'PY'
