@@ -284,12 +284,14 @@ This deployment successfully demonstrates the end-to-end process of taking produ
 containerized.
 
 All requests to the live endpoint follow a clearly documented API schema and return predictions in real time. Endpoint logs and metrics are automatically captured in Amazon CloudWatch, providing visibility for monitoring and debugging. Cleanup steps are included to ensure cost control.
+
 This process meets the deployment requirements of the capstone by showing:
 
--A reproducible data and deployment pipeline (local → S3 → SageMaker).
--Proper containerization via SageMaker’s managed TensorFlow Serving image.
--Monitoring and logging through CloudWatch.
--A tested, documented API returning sensible results.
+1. A reproducible data and deployment pipeline (local → S3 → SageMaker).
+2. Proper containerization via SageMaker’s managed TensorFlow Serving image.
+3. Monitoring and logging through CloudWatch.
+4. A tested, documented API returning sensible results.
+5. 
 The application is stable, extensible, and can be scaled by increasing instance size or replica count as needed.
 
 
