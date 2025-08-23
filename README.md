@@ -291,7 +291,7 @@ This process meets the deployment requirements of the capstone by showing:
 2. Proper containerization via SageMaker’s managed TensorFlow Serving image.
 3. Monitoring and logging through CloudWatch.
 4. A tested, documented API returning sensible results.
-5. 
+   
 The application is stable, extensible, and can be scaled by increasing instance size or replica count as needed.
 
 
