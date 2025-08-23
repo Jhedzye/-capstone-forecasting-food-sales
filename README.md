@@ -48,7 +48,7 @@ export SAGEMAKER_ROLE_ARN=$(aws iam get-role --role-name $ROLE_NAME \
 
 ### 6) Deploy TensorFlow Serving 2.13 (CPU)
 python - <<'PY'
-import os, boto3, sagemaker
+// import os, boto3, sagemaker
 from sagemaker import image_uris
 from sagemaker.tensorflow.model import TensorFlowModel
 region=os.environ["AWS_REGION"]; role=os.environ["SAGEMAKER_ROLE_ARN"]
