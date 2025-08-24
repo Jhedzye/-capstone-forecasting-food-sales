@@ -9,7 +9,7 @@ The primary objective is to create a scalable machine learning solution that for
 ## Project Files
 
 - `Capstone_Steps_7_and_8_Complete.ipynb`: Consolidated notebook containing the experimentation phase and scalable prototype implementation.
-- `Favorita_train.csv`: Synthetic dataset containing 2 million rows of time-series sales data.
+- `Favorita_train.csv`: Dataset containing 2 million rows of time-series sales data.
 - `README.md`: Project documentation and methodology.
 
 ## Tools and Libraries
