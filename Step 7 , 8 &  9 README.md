@@ -9,7 +9,7 @@ The primary objective is to create a scalable machine learning solution that for
 ## Project Files
 
 - `Capstone_Steps_7_and_8_Complete.ipynb`: Consolidated notebook containing the experimentation phase and scalable prototype implementation.
-- `Favorita_train.csv`: Synthetic dataset containing 2 million rows of time-series sales data.
+- `Favorita_train.csv`: Dataset containing 2 million rows of time-series sales data.
 - `README.md`: Project documentation and methodology.
 
 ## Tools and Libraries
@@ -66,7 +66,7 @@ The final model is capable of training on web-scale data while maintaining relia
 
 **Deployment Method Chosen**: Amazon SageMaker Hosted Endpoint
 
-This plan outlines my strategy to deploy the XGBoost model as a real-time API using AWS. The full plan includes post-deployment monitoring, logging, retraining, and pipeline integration.
+This plan outlines my strategy to deploy the Prophet and LSTM models as a real-time API using AWS. The full plan includes post-deployment monitoring, logging, retraining, and pipeline integration.
 
 [View Deployment Plan (Google Doc)](https://docs.google.com/document/d/1ldMIJIzXPEKAASrPYOsuXVsfufHko9vjfnsS6OibdN0/edit?usp=sharing)
 
