@@ -265,10 +265,10 @@ ___
 ## Screenshots
 
 ### Flask UI running locally
-![Flask UI](./screenshots/flask_ui.png)
+![Flask UI](./screenshoots/flask_ui.png)
 
 ### Endpoint deployed in AWS SageMaker Console
-![SageMaker Endpoint](./screenshots/endpoint_deployed.png)
+![SageMaker Endpoint](./screenshoots/endpoint_Inservice.png)
 
 
 
