@@ -288,7 +288,7 @@ This shows the local Flask app making a prediction request to the SageMaker endp
 ### Endpoint deployed in AWS SageMaker Console  
 This shows the SageMaker endpoint in **InService** state, confirming the model is deployed and ready to serve predictions.  
 
-![SageMaker Endpoint](./screenshots/endpoint_inservice.png)
+![SageMaker Endpoint](./screenshots/endpoint_Inservice.png)
 
 
 
