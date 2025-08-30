@@ -120,9 +120,9 @@ This project demonstrates deploying an LSTM model for food vendor sales forecast
 
 ## 4. IAM Role
 The role SMExecutionRoleFoodForecast was created with:
-Trust policy allowing SageMaker to assume the role.
-Policies: AmazonSageMakerFullAccess, AmazonS3ReadOnlyAccess.
-Inline least-privilege policy scoped to the artifact bucket.
+- Trust policy allowing SageMaker to assume the role.
+- Policies: AmazonSageMakerFullAccess, AmazonS3ReadOnlyAccess.
+- Inline least-privilege policy scoped to the artifact bucket.
 
 
 ## 5. Deply Endpoint 
@@ -255,19 +255,21 @@ ___
 ___
 ### Troubleshooting
 
-If git push or AWS CLI commands hang, reset credentials and try again.
-If Flask doesn’t start, confirm .venv is active and requirements.txt installed.
+- If git push or AWS CLI commands hang, reset credentials and try again.
+- If Flask doesn’t start, confirm .venv is active and requirements.txt installed.
 
 
 ___
 
-### Screenshots 
-
-### Flask UI running Locally 
-### Endpoint Deployed 
 
 
+## Screenshots
 
+### Flask UI running locally
+![Flask UI](./screenshots/flask_ui.png)
+
+### Endpoint deployed in AWS SageMaker Console
+![SageMaker Endpoint](./screenshots/endpoint_deployed.png)
 
 
 
