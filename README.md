@@ -201,7 +201,6 @@ Local .h5 → .keras → SavedModel → tar.gz → S3
 
 
 
----
 
 ## Run & Deployment
 
@@ -229,7 +228,7 @@ bash deploy/create_endpoint.sh
 bash deploy/delete_endpoint.sh
 
 
-___
+
 
 ### Environment Variables 
 
@@ -252,14 +251,14 @@ ___
 
 
 
-___
+
 ### Troubleshooting
 
 - If git push or AWS CLI commands hang, reset credentials and try again.
 - If Flask doesn’t start, confirm .venv is active and requirements.txt installed.
 
 
-___
+
 
 
 
