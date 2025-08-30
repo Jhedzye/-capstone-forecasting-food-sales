@@ -262,13 +262,21 @@ ___
 
 
 
+
 ## Screenshots
 
-### Flask UI running locally
-![Flask UI](./screenshoots/flask_ui.png)
+### Flask UI running locally  
+This shows the local Flask app making a prediction request to the SageMaker endpoint and returning a forecast result.  
 
-### Endpoint deployed in AWS SageMaker Console
-![SageMaker Endpoint](./screenshoots/endpoint_Inservice.png)
+![Flask UI](./screenshots/flask_ui.png)
+
+---
+
+### Endpoint deployed in AWS SageMaker Console  
+This shows the SageMaker endpoint in **InService** state, confirming the model is deployed and ready to serve predictions.  
+
+![SageMaker Endpoint](./screenshots/endpoint_inservice.png)
+
 
 
 
