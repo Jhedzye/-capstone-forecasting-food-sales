@@ -291,6 +291,36 @@ This shows the SageMaker endpoint in **InService** state, confirming the model i
 ![SageMaker Endpoint](./screenshots/endpoint_Inservice.png)
 
 
+## Model Inputs and Outputs
+
+My model forecasts daily food vendor sales using an LSTM architecture.
+	•	Input format: [batch, timesteps, features]
+	•	Batch = 1 → one sequence is passed in at a time.
+	•	Timesteps = 30 → each sequence covers the last 30 days of sales history.
+	•	Features = 1 → the only feature currently used is the daily sales value.
+
+This means the model takes the last 30 days of sales and predicts the next day’s sales.
+	•	Output format:
+	•	A single scalar value representing the forecasted sales for day 31.
+
+⸻
+
+Example Prediction (Flask App)
+
+In the screenshot from the Flask UI, the model was given a sequence of 30 values and produced the following prediction:
+
+Prediction: [[214.73]]
+
+Interpretation
+
+This example demonstrates the full workflow:
+	1.	A user provides the last 30 days of sales through the Flask app.
+	2.	The LSTM model processes the input and generates the next day’s sales forecast.
+	3.	The output is returned and displayed in the UI as a single scalar value.
+
+The screenshot confirms that the deployed model is working as expected and returning predictions through the application interface.
+
+
 
 
 
