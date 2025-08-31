@@ -281,6 +281,8 @@ ___
 ### Flask UI running locally  
 This shows the local Flask app making a prediction request to the SageMaker endpoint and returning a forecast result.  
 
+The screenshot below shows my Flask UI making a live prediction. I entered a 30-day sequence of normalized sales values, and the model returned a prediction of 0.1511. This value is on the scaled range (0–1), and when inverse-transformed back to the original sales scale, it corresponds to the expected sales for the next day. This confirms that my deployed model is working correctly, taking in sales history as input and returning a valid forecast.
+
 ![Flask UI](./screenshots/flask_ui.png)
 
 ---
@@ -302,27 +304,6 @@ My model forecasts daily food vendor sales using an LSTM architecture.
 This means the model takes the last 30 days of sales and predicts the next day’s sales.
 	•	Output format:
 	•	A single scalar value representing the forecasted sales for day 31.
-
-⸻
-
-Example Prediction (Flask App)
-
-In the screenshot from the Flask UI, the model was given a sequence of 30 values and produced the following prediction:
-
-Prediction: [[214.73]]
-
-Interpretation
-
-This example demonstrates the full workflow:
-	1.	A user provides the last 30 days of sales through the Flask app.
-	2.	The LSTM model processes the input and generates the next day’s sales forecast.
-	3.	The output is returned and displayed in the UI as a single scalar value.
-
-The screenshot confirms that the deployed model is working as expected and returning predictions through the application interface.
-
-
-
-
 
 
 
